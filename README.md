@@ -1,0 +1,1 @@
+School project using basic javascript and html. Displays a website with 5 pages showing the life of the muisc artist Lil Peep. Has a sign up and survey page as well as pictures about his life. 

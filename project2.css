@@ -1,0 +1,157 @@
+/* //This is the main CSS file for the entire website. It controls all of the positioning of all the buttons
+as well as text fields and images. It also controls all of the collors or stles on all of the pages. */
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Controls the main body of every page. */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
+	background-color: rgb(161, 4, 4);
+
+	margin: 0 auto;
+	height: 1500px;
+	width: 1400px;
+	border: 3px solid black;
+
+
+}
+
+/* //Sets the background color of the survey page, different then the others for readabiltiy */
+.survey {
+	background-color: white;
+}
+
+
+h1 {
+	text-align: center;
+
+}
+
+/* // Controls the submit button size and position */
+.submit {
+	float: center;
+	width: 10em;
+	font-size: large;
+}
+
+/* This controls the position and size of the text on the sign up page.  */
+.signuptext {
+	float: center;
+	text-align: center;
+	margin-top: 1em;
+	font-size: x-large;
+
+
+}
+
+/* Controls the position and size of all the buttons.  */
+.mybuttons {
+
+	float: center;
+	margin-top: 1em;
+	margin-right: 2em;
+	margin-left: 0em;
+	width: 12em;
+	text-align: center;
+	font-size: large;
+}
+
+/* Controls the text position and size on the allsongs page.  */
+.allsongs {
+
+	float: center;
+	text-align: center;
+	margin-top: 2em;
+	font-size: xx-large;
+
+}
+
+/* Controls the main page image addes some margins to the edge to make it look better */
+.homeimage {
+	margin-top: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+/* Controls the position and size of the signup form */
+.signup {
+	float: center;
+	text-align: right;
+	margin-top: 2em;
+	margin-right: 25em;
+	font-size: x-large;
+}
+
+/* // Controls the size and posistion of the text on the life info page. */
+.lifeinfo {
+	font-size: x-large;
+	margin-top: 1em;
+	margin-left: 10em;
+}
+
+/* Controls the input text boxes without moving the whole sigup form. */
+.textbox {
+	float: right;
+	width: 500px;
+	margin-top: 6px;
+
+	width: 16em;
+}
+
+/* Controls the position of the carousel images. */
+.carousel {
+	height: 500px;
+	float: right;
+	margin-top: 3em;
+	margin-right: 28em
+}
+
+/* the styles for the carousel */
+.button_panel {
+
+	height: 125px;
+	padding: 50px 15px;
+	float: left;
+
+
+}
+
+/* Button images for the carousel */
+.button_panel img {
+	width: 25px;
+	height: 25px;
+}
+
+/* Display panel for carousel image */
+#display_panel {
+	height: 500px;
+	width: 500px;
+	overflow: hidden;
+	float: left;
+
+}
+
+/* Controls the image list for the carousel */
+#image_list {
+	left: 0px;
+	position: relative;
+	width: 2500px;
+	list-style: none;
+}
+
+/* controls the size of the carousel image */
+#image_list li {
+	float: left;
+	width: 500px;
+}
+
+/* Controls the width of teh image */
+#image_list li img {
+	width: 495px;
+
+}
